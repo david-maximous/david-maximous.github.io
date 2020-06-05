@@ -1,0 +1,108 @@
+<!Doctype html>
+<html lang=en>
+<head>
+<link rel="stylesheet" href="css/stylesheet.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald" />
+    <meta charset="utf-8">
+    <link rel="icon" type="image/ico" href="img/icon.ico">
+<title>Shopping Cart - Classic Menswear</title>
+</head>
+<body>
+<img src="img/logo.png" alt="Classic Menswear Logo" class="logo" />
+<ul>
+    <li><a href="index.html"><i class="fa fa-home" aria-hidden="true"> Home</i></a></li>
+        <li class="dropdown"><a href="javascript:void(0)" class="dropbtn"><i class="fa fa-bars" aria-hidden="true"> Categories</i></a><div class="dropdown-content"><a href="watches.html">Watches</a><a href="shoes.html">Shoes</a><a href="belts.html">Belts</a></div></li>
+            <li><a href="log-in.html"><i class="fa fa-sign-in" aria-hidden="true"> Log In</i></a></li>
+            <li><a href="sign-up.html"><i class="fa fa-user-plus" aria-hidden="true"> Sign Up</i></a></li>
+            <li><a href="contact-us.html"><i class="fa fa-envelope" aria-hidden="true"> Contact Us</i></a></li>
+            <li><a href="cart.html"><i class="fa fa-shopping-cart" aria-hidden="true"> Cart</i></a></li>     <li><div onclick="redirect('account-info')" class="chip">   <img src="img/user.png" alt="User Image">   David Maximous </div></li>     </ul>
+   <div class="searchbar">
+ <input type="text" placeholder="Search..">
+</div>
+    <div class="shopping-cart">
+      <div class="title">
+        Shopping Cart
+      </div>
+      <div class="item">
+        <div class="buttons">
+          <span class="delete-btn"></span>
+          <span class="like-btn"></span>
+        </div>
+        <div class="image">
+          <img src="img/Belt2.jpg" alt="Classic Belt 2" />
+        </div>
+        <div class="description">
+          <span>Classic Belt 2</span>
+          <span>Black</span>
+        </div>
+        <div class="quantity">
+          <button class="plus-btn" type="button" name="button">
+            <img src="img/plus.svg" alt="Plus Button" />
+          </button>
+          <input type="text" name="name" value="1">
+          <button class="minus-btn" type="button" name="button">
+            <img src="img/minus.svg" alt="Minus Button" />
+          </button>
+        </div>
+        <div class="total-price">$50</div>
+      </div>
+      <div class="item">
+        <div class="buttons">
+          <span class="delete-btn"></span>
+          <span class="like-btn"></span>
+        </div>
+        <div class="image">
+          <img src="img/Shoe1.jpg" alt=""/>
+        </div>
+        <div class="description">
+          <span>Classic Shoe 1</span>
+            <span>Black</span>
+        </div>
+        <div class="quantity">
+          <button class="plus-btn" type="button" name="button">
+            <img src="img/plus.svg" alt="Plus Button" />
+          </button>
+          <input type="text" name="name" value="1">
+          <button class="minus-btn" type="button" name="button">
+            <img src="img/minus.svg" alt="Minus Button" />
+          </button>
+          </div>
+        <div class="total-price">$40</div>
+      </div>
+      <div class="item">
+        <div class="buttons">
+          <span class="delete-btn"></span>
+          <span class="like-btn"></span>
+        </div>
+        <div class="image">
+          <img src="img/Belt1.png" alt="" />
+        </div>
+        <div class="description">
+          <span>Classic Watch 3</span>
+          <span>Black</span>
+        </div>
+        <div class="quantity">
+          <button class="plus-btn" type="button" name="button">
+            <img src="img/plus.svg" alt="Plus Button" />
+          </button>
+          <input type="text" name="name" value="1">
+          <button class="minus-btn" type="button" name="button">
+            <img src="img/minus.svg" alt="Minus Button" />
+          </button>
+        </div>
+        <div class="total-price">$30</div>
+      </div>
+    </div>
+<button type="submit" class="loginsignupbtns" onclick="redirect('checkout')">Checkout</button>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>   
+    
+<footer>
+    <br><br><br><br><br>
+    <hr>
+    <div class="marquee">
+        <p>Website developed by: Mario Medhat - Ahmed Ibrahim - Ali Mahran - Abdalla Hassan - David Maximous</p></div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,105 @@
+<!Doctype html>
+<html lang=en>
+<head>
+<link rel="stylesheet" href="css/stylesheet.css" /> <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald" />
+    <meta charset="utf-8">
+    <link rel="icon" type="image/ico" href="img/icon.ico">
+<title>Checkout - Classic Menswear</title>
+</head>
+<body>
+<img src="img/logo.png" alt="Classic Menswear Logo" class="logo" />
+<ul>
+    <li><a href="index.html"><i class="fa fa-home" aria-hidden="true"> Home</i></a></li>
+        <li class="dropdown"><a href="javascript:void(0)" class="dropbtn"><i class="fa fa-bars" aria-hidden="true"> Categories</i></a><div class="dropdown-content"><a href="watches.html">Watches</a><a href="shoes.html">Shoes</a><a href="belts.html">Belts</a></div></li>
+            <li><a href="log-in.html"><i class="fa fa-sign-in" aria-hidden="true"> Log In</i></a></li>
+            <li><a href="sign-up.html"><i class="fa fa-user-plus" aria-hidden="true"> Sign Up</i></a></li>
+            <li><a href="contact-us.html"><i class="fa fa-envelope" aria-hidden="true"> Contact Us</i></a></li>
+            <li><a href="cart.html"><i class="fa fa-shopping-cart" aria-hidden="true"> Cart</i></a></li>     <li><div onclick="redirect('account-info')" class="chip">   <img src="img/user.png" alt="User Image">   David Maximous </div></li>     </ul>
+<div class="searchbar">
+ <input type="text" placeholder="Search..">
+</div>
+
+<h2 class="center">Checkout Form</h2>
+<div class="checkout-row">
+  <div class="checkout-75">
+    <div class="checkout-container">
+      <form action="email-confirmation.html">
+      
+        <div class="checkout-row">
+          <div class="checkout-50">
+            <h3>Billing Address</h3>
+            <label for="fname"><i class="fa fa-user"></i> Full Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="David D Maximous">
+            <label for="email"><i class="fa fa-envelope"></i> Email</label>
+            <input type="text" id="email" name="email" placeholder="david194242@bue.edu.eg">
+            <label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
+            <input type="text" id="adr" name="address" placeholder="3 Mohamed Metwally El Sharaawy">
+            <label for="city"><i class="fa fa-institution"></i> City</label>
+            <input type="text" id="city" name="city" placeholder="Cairo">
+
+            <div class="checkout-row">
+              <div class="checkout-50">
+                <label for="state">State</label>
+                <input type="text" id="state" name="state" placeholder="Sheraton">
+              </div>
+              <div class="checkout-50">
+                <label for="zip">Zip Code</label>
+                <input type="text" id="zip" name="zip" placeholder="71511">
+              </div>
+            </div>
+          </div>
+
+          <div class="checkout-50">
+            <h3>Payment</h3>
+            <label for="fname">Accepted Cards</label>
+            <div class="icon-container">
+              <i class="fa fa-cc-visa" style="color:navy;"></i>
+              <i class="fa fa-cc-amex" style="color:blue;"></i>
+              <i class="fa fa-cc-mastercard" style="color:red;"></i>
+              <i class="fa fa-cc-discover" style="color:orange;"></i>
+            </div>
+            <label for="ccname">Name on Card</label>
+            <input type="text" id="ccname" name="cardname" placeholder="David Doaa Maximous">
+            <label for="ccnum">Credit Card Number</label>
+            <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
+            <label for="expmonth">Expire Month</label>
+            <input type="text" id="expmonth" name="expmonth" placeholder="January">
+            <div class="row">
+              <div class="checkout-50">
+                <label for="expyear">Expire Year</label>
+                <input type="text" id="expyear" name="expyear" placeholder="2025">
+              </div>
+              <div class="checkout-50">
+                <label for="cvv">CVV</label>
+                <input type="text" id="cvv" name="cvv" placeholder="549">
+              </div>
+            </div>
+          </div>
+        </div>
+        <input type="submit" value="Complete Purchase" class="checkoutbtn">
+      </form>
+    </div>
+  </div>
+  <div class="checkout-25">
+    <div class="checkout-container">
+      <h4>Cart <span class="price" style="color:black !important"><i class="fa fa-shopping-cart"></i> <b>3</b></span></h4>
+      <p><a href="belt2.html">Classic Belt 2</a> <span class="price">$50</span></p>
+      <p><a href="shoe1.html">Classic Shoe 1</a> <span class="price">$40</span></p>
+      <p><a href="watch3.html">Classic Watch 3</a> <span class="price">$30</span></p>
+      <hr>
+      <p>Subtotal <span class="price" style="color:black !important"><b>$120</b></span></p>
+      <p>Tax (14%) <span class="price" style="color:black !important"><b>$16.8</b></span></p>
+      <p>Shipping <span class="price" style="color:black !important"><b>$10</b></span></p>
+      <p>Total <span class="price" style="color:black !important"><b>$146.8</b></span></p>
+    </div>
+  </div>
+</div>
+<hr>
+<footer>
+    <div class="marquee">
+        <p>Website developed by: Mario Medhat - Ahmed Ibrahim - Ali Mahran - Abdalla Hassan - David Maximous</p></div>
+</footer>
+<script src="js/main.js"></script>
+</body>
+</html>
