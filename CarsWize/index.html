@@ -1,0 +1,220 @@
+<!Doctype html>
+<html lang=en>
+<head>  
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/png" href="img/favicon.png">
+    <title>CarsWize</title>
+</head>
+
+<body>
+    <a href="index.html"><img id="logo" src="img/logo.png" alt="CarsWize Logo"></a>
+    <ul id="navbar">
+        <li><a href="contact-us.html">Contact Us</a></li>
+        <li><a href="reservation.html">Reservation</a></li>
+        <li><a class="active" href="index.html">Home</a></li>
+    </ul>
+    <div class="parallax">
+        <div class="container">
+            <h3>FIND YOUR PERFECT CAR</h3>
+            
+        </div>
+    </div>
+<div id="filter-container">
+  <button class="btn filter-active" onclick="filterSelection('all')"> Show all</button>
+  <button class="btn" onclick="filterSelection('audi')"> Audi</button>
+  <button class="btn" onclick="filterSelection('bmw')"> BMW</button>
+  <button class="btn" onclick="filterSelection('rangerover')"> Range Rover</button>
+  <button class="btn" onclick="filterSelection('mercedes')"> Mercedes</button>
+</div>
+
+<div class="cars-container">
+    <div class="filter audi">
+        <img src="img/audi_a5.png" alt="Audi A5">
+        <h1>Audi A5</h1>
+        <p class="car-specs">
+Manufacturing Year: 2019<br>
+Seating Capacity: 4<br>
+Acceleration: 6.0 seconds<br>
+Engine: Four Cylinder<br>
+Highway: 34 MPG<br>
+City: 24 MPG</p>
+        <p><button onclick="redirect('reservation')">Reserve it</button></p>
+    </div>
+        <div class="filter audi">
+        <img src="img/audi_q5.png" alt="Audi Q5">
+        <h1>Audi Q5</h1>
+        <p class="car-specs">
+Manufacturing Year: 2020<br>
+Seating capacity: 5<br>
+Acceleration: 5.9 seconds<br>
+Engine: Four Cylinder<br>
+Highway: 27 MPG<br>
+City: 23 MPG<br></p>
+        <p><button onclick="redirect('reservation')">Reserve it</button></p>
+    </div>
+            <div class="filter audi">
+        <img src="img/audi_q7.png" alt="Audi Q7">
+        <h1>Audi Q7</h1>
+        <p class="car-specs">
+Manufacturing Year: 2018<br>
+Seating Capacity: 7<br>
+Acceleration: 7.1 seconds<br>
+Engine: 45 TFSI 248 HP<br>
+Highway: 25 MPG<br>
+City: 19 MPG<br></p>
+                <p><button onclick="redirect('reservation')">Reserve it</button></p></div>
+    <div class="filter bmw">
+        <img src="img/bmw7.png" alt="BMW 7 Series">
+        <h1>BMW 7 Series</h1>
+        <p class="car-specs">
+Manufacturing Year: 2020<br>
+5 Seats<br>
+4 Doors<br>
+Automatic<br>
+Air Conditioning<br>
+2 Bags</p>
+        <p><button onclick="redirect('reservation')">Reserve it</button></p>
+    </div>
+         <div class="filter bmw">
+        <img src="img/bmw_x3.png" alt="BMW X3">
+        <h1>BMW X3</h1>
+        <p class="car-specs">
+Manufacturing Year: 2020<br>
+5 Seats<br>
+4 Doors<br>
+Automatic<br>
+Air Conditioning<br>
+3 Bags</p>
+        <p><button onclick="redirect('reservation')">Reserve it</button></p>
+    </div>
+            <div class="filter bmw">
+        <img src="img/bmw_x5.png" alt="BMW X5">
+        <h1>BMW X5</h1>
+        <p class="car-specs">
+Manufacturing Year: 2020<br>
+5 Seats<br>
+4 Doors<br>
+Automatic<br>
+258 Horsepower<br>
+Capcity: 4 People</p>
+        <p><button onclick="redirect('reservation')">Reserve it</button></p>
+    </div>
+    
+    
+    
+        <div class="filter rangerover">
+        <img src="img/rr_velar.png" alt="Range Rover Velar">
+        <h1>Range Rover Velar</h1>
+        <p class="car-specs">
+Manufacturing Year: 2018<br>
+5 Seats<br>
+4 Doors<br>
+Automatic<br>
+2 Bags<br>
+GPS</p>
+        <p><button onclick="redirect('reservation')">Reserve it</button></p>
+    </div>
+        <div class="filter rangerover">
+        <img src="img/rr_sport.png" alt="Range Rover Sport">
+        <h1>Range Rover Sport</h1>
+        <p class="car-specs">
+Manufacturing Year: 2016<br>
+5 Seats<br>
+4 Doors<br>
+Automatic<br>
+2 Bags<br>
+GPS</p>
+        <p><button onclick="redirect('reservation')">Reserve it</button></p>
+    </div>
+        <div class="filter rangerover">
+        <img src="img/rr_grau.png" alt="Range Rover XZAN">
+        <h1>Range Rover XZAN</h1>
+        <p class="car-specs">
+Manufacturing Year: 2016<br>
+5 Seats<br>
+4 Doors<br>
+Automatic<br>
+2 Bags<br>
+GPS</p>
+        <p><button onclick="redirect('reservation')">Reserve it</button></p>
+    </div>
+
+        <div class="filter mercedes">
+        <img src="img/mb_cla.png" alt="Mercedes CLA">
+        <h1>Mercedes CLA</h1>
+        <p class="car-specs">
+Manufacturing Year: 2018<br>
+5 Seats<br>
+4 Doors<br>
+Automatic<br>
+2 Bags<br>
+GPS</p>
+        <p><button onclick="redirect('reservation')">Reserve it</button></p>
+    </div>
+            <div class="filter mercedes">
+        <img src="img/mb_g.png" alt="Mercedes G-Class">
+        <h1>Mercedes G-Class</h1>
+        <p class="car-specs">
+Manufacturing Year: 2015<br>
+5 Seats<br>
+4 Doors<br>
+Automatic<br>
+2 Bags<br>
+GPS</p>
+        <p><button onclick="redirect('reservation')">Reserve it</button></p>
+    </div>
+            <div class="filter mercedes">
+        <img src="img/mb_gls.png" alt="Mercedes GLS">
+        <h1>Mercedes GLS</h1>
+        <p class="car-specs">
+Manufacturing Year: 2016<br>
+7 Seats<br>
+4 Doors<br>
+Automatic<br>
+3 Bags<br>
+GPS</p>
+        <p><button onclick="redirect('reservation')">Reserve it</button></p>
+    </div>
+    </div>
+ <br>   
+    <div class="parallax-bottom">
+        <div class="container">
+            <h3>CUSTOMER REVIEWS</h3>
+        </div>
+        <div class="review-container fade">
+            <img src="img/boy.png" alt="Boy Character"><br><br>
+            <span>Taylor John</span>
+            <p>CarsWize saved my money and time</p>
+        </div>
+        <div class="review-container fade">
+            <img src="img/girl.png" alt="Girl Character"><br><br>
+            <span>Angelica Robens</span>
+            <p>CarsWize is a wonderful website!</p>
+        </div>
+        <div class="review-container fade">
+            <img src="img/boy.png" alt="Boy Character"><br><br>
+            <span>Mario Jenson</span>
+            <p>My trip was exciting with CarsWize</p>
+        </div>
+        <div class="review-container fade">
+            <img src="img/girl.png" alt="Girl Character"><br><br>
+            <span>Jeessica Adams</span>
+            <p>I really like this website</p>
+        </div>
+        
+        <div style="text-align:center">
+            <span class="dot"></span> 
+            <span class="dot"></span> 
+            <span class="dot"></span> 
+            <span class="dot"></span>
+        </div>
+    </div>    
+
+<hr>
+<footer>
+<p>Designed By David Maximous</p>
+</footer>
+    <script src="js/main.js"></script>
+</body>
+</html>
