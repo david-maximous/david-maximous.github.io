@@ -1,0 +1,54 @@
+<!Doctype html>
+<html lang=en>
+<head>  
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/png" href="img/favicon.png">
+    <title>CarsWize</title>
+</head>
+
+<body>
+    <a href="index.html"><img id="logo" src="img/logo.png" alt="CarsWize Logo"></a>
+    <ul id="navbar">
+        <li><a href="contact-us.html">Contact Us</a></li>
+        <li><a class="active" href="reservation.html">Reservation</a></li>
+        <li><a href="index.html">Home</a></li>
+    </ul>
+    <div class="parallax">
+        <div class="container">
+            <h3>RESERVE YOUR CAR</h3>
+        </div></div>
+    <br><br>
+    <form action="#">
+        <input type="text" name="fullname" placeholder="Full Name">
+        <input type="email" name="email" placeholder="Your Email">
+        <input type="number" name="phone" placeholder="Your Phone Number">
+        <select name="car">
+            <option value="" selected disabled>Select Your Car</option>
+            <option value="audi_a5">AUdi A5</option>
+            <option value="audi_q5">Audi Q5</option>
+            <option value="audi_q7">Audi Q7</option>
+            <option value="bmw7">BMW 7 Series</option>
+            <option value="bmw_x3">BMW X3</option>
+            <option value="bmw_x5">BMW X5</option>
+            <option value="rr_velar">Range Rover Velar</option>
+            <option value="rr_sport">Range Rover Sport</option>
+            <option value="rr_xzan">Range Rover XZAN</option>
+            <option value="md_cla">Mercedes CLA</option>
+            <option value="md_g">Mercedes G-Class</option>
+            <option value="md_gls">Mercedes GLS</option>
+        </select>
+        <input type="text" name="pickuplocation" placeholder="Pick-up Location">
+        <label>Pick-up Date & Time</label>
+        <input type="datetime-local" name="pickupdate">
+        <label>Drop-off Date & Time</label>
+        <input type="datetime-local" name="dropoffdate">
+        <input type="submit" value="Submit" onclick="alert('Reservation Success. Check Your Mail')">
+  </form>
+<br><br><hr>
+<footer>
+<p>Designed By David Maximous</p>
+</footer>
+    <script src="js/main.js"></script>
+</body>
+</html>
